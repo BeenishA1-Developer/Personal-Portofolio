@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beenish A1 - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container header-content">
+            <a href="#hero" class="logo">Beenish <span class="logo-accent">A1</span></a>
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#tools">Tools</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark and light mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container hero-content">
+                <div class="hero-left">
+                    <p class="greeting">👋 Hello! I'm</p>
+                    <h1 class="hero-name">Beenish A1</h1>
+                    <p class="hero-tagline">I am  <span class="typing-text"></span></p>
+                    <p class="experience-text">With <span class="highlight">1+ Years</span> of Experience</p>
+
+                    <div class="hero-buttons">
+                        <a href="new Final cv.pdf" download class="btn btn-primary"  target="_blank"><i class="fas fa-download"></i> Resume</a>
+                        <!-- Updated Hire Me button to open direct Gmail compose link -->
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=developerrra1@gmail.com&su=Project%20Discussion%20with%20Beenish%20A1&body=Hello%20Beenish%20A1,%0A%0AI%20would%20like%20to%20discuss%20a%20project%20with%20you." target="_blank" class="btn btn-secondary">Hire Me <i class="fas fa-diamond"></i></a>
+                    </div>
+                </div>
+
+                <div class="hero-right">
+                    <div class="hero-image-container">
+                        <img src="profile pic.jfif" alt="Beenish A1" class="hero-photo">
+                    </div>
+                </div>
+            </div>
+            <div class="hero-scroll-indicator">
+                <span>Scroll Down</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container about-container">
+                <div class="about-image-wrapper reveal fade-left">
+                    <img src="profile pic.jfif" alt="Beenish A1 - Professional Photo">
+                </div>
+                <div class="about-content reveal fade-right">
+                    <h2 class="section-title">About Me</h2>
+                    <p>I am Beenish A1, a passionate and dedicated <b>Junior Developer</b> with a focus on creating engaging and user-friendly <b>Android applications</b> using modern technologies like <b>Jetpack Compose</b>. With a strong foundation in both mobile and web development (<b>HTML, CSS, JavaScript, PHP</b>), I thrive on transforming complex challenges into intuitive and scalable digital solutions.</p>
+                    <p>My goal is to craft <b>impactful applications</b> and web projects that not only solve real-world problems but also offer exceptional user experiences. I enjoy tackling problems that involve optimizing user interaction, improving application performance, and designing efficient data structures. I also find great satisfaction in bringing innovative ideas to life through code, especially in the realm of mobile and web applications.</p>
+                    <a href="#contact" class="btn btn-secondary">Let's Connect <i class="fas fa-handshake"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education-section">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="education-cards-wrapper">
+                    <div class="education-card reveal fade-up">
+                        <div class="card-top">
+                            <span class="card-date">2013 - 2015</span>
+                            <span class="card-icon"><i class="fas fa-graduation-cap"></i></span>
+                        </div>
+                        <h3>Matriculation</h3>
+                        <p class="institution"><i class="fas fa-university"></i> Govt. High School Samundri</p>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> Samundri, Punjab, Pakistan</p>
+                        <p class="grade"><i class="fas fa-star"></i> Secured 950 out of 1100 marks.</p>
+                    </div>
+
+                    <div class="education-card reveal fade-up delay-1">
+                        <div class="card-top">
+                            <span class="card-date">2015 - 2017</span>
+                            <span class="card-icon"><i class="fas fa-graduation-cap"></i> FSC</span>
+                        </div>
+                        <h3>FSc (Pre-Engineering)</h3>
+                        <p class="institution"><i class="fas fa-university"></i> Govt. Degree College Samundri</p>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> Samundri, Punjab, Pakistan</p>
+                        <p class="grade"><i class="fas fa-star"></i> Secured 908 out of 1100 marks.</p>
+                    </div>
+
+                    <div class="education-card reveal fade-up delay-2">
+                        <div class="card-top">
+                            <span class="card-date">2021 - 2025</span>
+                            <span class="card-icon"><i class="fas fa-graduation-cap"></i> Graduation</span>
+                        </div>
+                        <h3>Bachelor of Computer Science</h3>
+                        <p class="institution"><i class="fas fa-university"></i> University of Malakand</p>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> Chakdara, Dir Lower, KPK, Pakistan</p>
+                        <p class="grade"><i class="fas fa-star"></i> Earned a GPA of 3.74 out of 4.00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services-section">
+            <div class="container">
+                <h2 class="section-title">What I Do</h2>
+                <div class="services-grid">
+                    <div class="service-card reveal fade-up">
+                        <i class="fas fa-code"></i>
+                        <h3>Web Development</h3>
+                        <p>Crafting responsive and functional websites, ideal for academic projects and personal showcases.</p>
+                    </div>
+                    <div class="service-card reveal fade-up delay-1">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Mobile App Development</h3>
+                        <p>Designing and building intuitive Android applications, leveraging modern frameworks like Jetpack Compose.</p>
+                    </div>
+                    <div class="service-card reveal fade-up delay-2">
+                        <i class="fas fa-project-diagram"></i>
+                        <h3>Final Year Project (FYP) Development</h3>
+                        <p>Specializing in the complete lifecycle of FYPs, from concept to deployment, for both web and mobile.</p>
+                    </div>
+                    <div class="service-card reveal fade-up delay-3">
+                        <i class="fas fa-server"></i>
+                        <h3>Backend Development</h3>
+                        <p>Developing robust server-side logic and APIs to power dynamic web and mobile applications.</p>
+                    </div>
+                    <div class="service-card reveal fade-up delay-4">
+                        <i class="fas fa-tablet-alt"></i>
+                        <h3>Responsive Design</h3>
+                        <p>Ensuring all developed applications and websites provide an optimal experience across devices.</p>
+                    </div>
+                    <div class="service-card reveal fade-up delay-5">
+                        <i class="fas fa-user-graduate"></i>
+                        <h3>Student Services</h3>
+                        <p>Providing specialized development support and guidance for student-focused projects and academic needs.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item reveal fade-up">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="skill-item reveal fade-up delay-1">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="skill-item reveal fade-up delay-2">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-item reveal fade-up delay-3">
+                        <i class="fab fa-php"></i>
+                        <span>PHP</span>
+                    </div>
+                    <div class="skill-item reveal fade-up delay-4">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>Kotlin</span>
+                    </div>
+                    <div class="skill-item reveal fade-up delay-5">
+                        <i class="fab fa-android"></i>
+                        <span>Jetpack Compose</span>
+                    </div>
+                    <div class="skill-item reveal fade-up delay-6">
+                        <i class="fas fa-database"></i>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="skill-item reveal fade-up delay-7">
+                        <i class="fas fa-database"></i>
+                        <span>SQL Server</span>
+                    </div>
+                    <div class="skill-item reveal fade-up delay-8">
+                        <i class="fab fa-bootstrap"></i>
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="skill-item reveal fade-up delay-9">
+                        <i class="fas fa-code"></i>
+                        <span>C++</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tools" class="tools-section">
+            <div class="container">
+                <h2 class="section-title">My Tools</h2>
+                <div class="tools-grid">
+                    <div class="tool-card reveal fade-up">
+                        <i class="fab fa-github"></i>
+                        <h3>GitHub</h3>
+                        <p>Version control and collaboration platform.</p>
+                    </div>
+                    <div class="tool-card reveal fade-up delay-1">
+                        <i class="fas fa-code"></i>
+                        <h3>VS Code</h3>
+                        <p>Powerful and versatile code editor.</p>
+                    </div>
+                    <div class="tool-card reveal fade-up delay-2">
+                        <i class="fab fa-android"></i>
+                        <h3>Android Studio</h3>
+                        <p>Official IDE for Android development.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title">My Recent Work</h2>
+                <div class="projects-grid">
+                    <div class="project-card reveal fade-up">
+                        <div class="project-info">
+                            <h3>Study Buddy App</h3>
+                            <p>A collaborative Android app to connect students for study sessions.</p>
+                            <div class="project-links">
+                                <a href="https://dummy-studybuddy-app.netlify.app" target="_blank" class="btn btn-small">Check <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card reveal fade-up delay-1">
+                        <div class="project-info">
+                            <h3>GPA Calculator App</h3>
+                            <p>Intuitive Android app for students to easily calculate and track their GPA.</p>
+                            <div class="project-links">
+                                <a href="GPA.mp4" target="_blank" class="btn btn-small">Check <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card reveal fade-up delay-2">
+                        <div class="project-info">
+                            <h3>Student Pal App</h3>
+                            <p>A comprehensive mobile assistant for students, enhancing productivity.</p>
+                            <div class="project-links">
+                                <a href="https://dummy-studentpal-app.netlify.app" target="_blank" class="btn btn-small">Check <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card reveal fade-up delay-3">
+                        <div class="project-info">
+                            <h3>Login Project (Web)</h3>
+                            <p>A secure and responsive web-based authentication system.</p>
+                            <div class="project-links">
+                                <a href="https://dummy-login-project.netlify.app" target="_blank" class="btn btn-small">Check <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card reveal fade-up delay-4">
+                        <div class="project-info">
+                            <h3>E-commerce Website</h3>
+                            <p>A fully functional e-commerce platform with product display and management.</p>
+                            <div class="project-links">
+                                <a href="https://dummy-ecommerce-web.netlify.app" target="_blank" class="btn btn-small">Check <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card reveal fade-up delay-5">
+                        <div class="project-info">
+                            <h3>Gypfit Website</h3>
+                            <p>A dedicated fitness and gym-themed website for health enthusiasts.</p>
+                            <div class="project-links">
+                                <a href="https://dummy-gypfit-website.netlify.app" target="_blank" class="btn btn-small">Check <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container contact-main-container">
+                <button class="contact-me-btn-bottom">
+                    <i class="fas fa-paper-plane"></i> Contact Me
+                </button>
+                <h2 class="section-title">Contact Us</h2>
+                <div class="contact-content-wrapper">
+                    <div class="connect-with-me-links">
+                        <h3>Connect With Me</h3>
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/beenish-a1-39b613371/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                            <li><a href="https://wa.me/+923098650148" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+<li><a href="https://www.tiktok.com/@developingbya1?_t=ZN-8xZtv9GVjqY&_r=1" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a></li>
+                            <li><a href="https://www.instagram.com/developingbya1?igsh=MWNkdWkxam8ydzU=" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+
+                            <!-- Updated mailto link for direct contact in the list -->
+                            <li><a href="mailto:developerrra1@gmail.com"><i class="fas fa-envelope"></i> developerrra1@gmail.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="contact-form-area">
+                        <h3>Contact Me</h3>
+                        <form class="contact-form">
+                            <div class="form-row">
+                                <input type="text" name="fullName" placeholder="Full Name*" required>
+                                <input type="email" name="email" placeholder="Email*" required>
+                            </div>
+                            <div class="form-row">
+                                <input type="text" name="mobileNo" placeholder="Mobile No.">
+                                <input type="text" name="subject" placeholder="Subject*" required>
+                            </div>
+                            <textarea name="message" placeholder="Message*" rows="6" required></textarea>
+                            <button type="submit" class="send-btn">
+                                Send <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="main-footer footer-custom-style">
+        <div class="container footer-content">
+            <p>&copy; 2025 Beenish A1. All rights reserved.</p>
+            <div class="footer-social-links">
+                <a href="https://www.linkedin.com/in/beenish-a1-39b613371/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/BeenishA1-Developer" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+<li><a href="https://www.tiktok.com/@developingbya1?_t=ZN-8xZtv9GVjqY&_r=1" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a></li>
+                <a href="https://www.instagram.com/developingbya1?igsh=MWNkdWkxam8ydzU=" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
